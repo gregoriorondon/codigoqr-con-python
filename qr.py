@@ -1,5 +1,5 @@
 import qrcode
 
-img = qrcode.make( input('introducir direccion: '))
-img.save( input('nombra el archivo: ') + '.jpg')
+img = qrcode.make( input('Introducir dirección: '))
+img.save( input('Nombra el archivo: ') + '.jpg')
 img.show()
